@@ -78,7 +78,7 @@ button:active {
   opacity: 0.8;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width: 1000px) {
   img {
     position: relative;
     margin: 45px 0 45px 30px;
@@ -90,15 +90,12 @@ button:active {
     margin-left: 30px;
   }
 
-  input{
-width: 90%;
-margin:0 0 5px 25px;
+  input {
+    width: 90%;
+    margin: 0 0 5px 25px;
   }
 
   button {
-margin: 50px 0 30px 10px;
+    margin: 50px 0 30px 10px;
   }
-
 }
-  
-
