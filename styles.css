@@ -21,6 +21,25 @@ body {
   min-height: 100vh;
 }
 
+div {
+}
+
+.result {
+  background-color: rgba(255, 255, 255, 0.1); /* Caixinha translúcida */
+  color: #00ffff; /* Cor azul clara como na sua imagem */
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  
+
+}
+
+
 h2 {
   color: #ffffff;
   font-weight: 400;
@@ -28,7 +47,7 @@ h2 {
   font-style: normal;
   line-height: 38px;
   text-align: center;
-  margin-top: 126px;
+  margin-top: 30px;
   margin-bottom: 26px;
 }
 
@@ -49,23 +68,23 @@ input {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
-  color: #ffffff;
+  color: #00ffff
 }
 
 .input-min {
-  margin-right: 62px;
+  margin-right: 10px;
 }
 
 button {
-  background: rgba(174, 195, 70, 1);
-  box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
-  border-radius: 10px;
+  background: rgb(70, 195, 183);
+  box-shadow: 0px 18px 40px 0px rgba(rgba(0, 255, 255, 0.5));
+   border-radius: 10px;
   width: 342px;
   height: 72px;
   color: #ffffff;
   font-weight: 700;
   font-size: 36px;
-  margin-top: 80px;
+  margin-top: 30px;
   border: none;
   cursor: pointer;
 }
