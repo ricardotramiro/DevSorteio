@@ -27,8 +27,19 @@ document.addEventListener('DOMContentLoaded', () => {
     resultElement.innerText = `Resultado: ${result}`;
   }
 
-  // Atribuindo o evento ao botão
+  // Botão sortear
   document.querySelector("button").addEventListener("click", generateNumber);
+
+// Botão Reiniciar
+document.querySelector(".restart").addEventListener("click",() =>{
+
+  // Limpar os inputs
+  document.querySelector(".input-min").value = "";
+  document.querySelector(".input-max").value = "";
+
+  // limpa o resultado
+  document.querySelector(".result").innerText = "";
+})
 });
 
 
