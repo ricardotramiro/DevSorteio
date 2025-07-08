@@ -7,13 +7,15 @@
 }
 
 img {
-  width: 583px;
-  height: 374px;
+  width: 300px;
+  height: auto;
   position: relative;
+  display: block;
+  margin: 20px auto;
 }
 
 body {
-  background-color: black;
+  background-color: #1a0033;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +36,7 @@ div {
   margin-top: 50px;
   text-align: center;
   width: 300px;
+  height: 72px;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
   
 
@@ -46,8 +49,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 input {
-  width: 150px;
-  height: 74px;
+  width: 145px;
+  height: 72px;
   background-color: rgba(255, 255, 255, 0.1); /* Caixinha translúcida */
   color: #00ffff; /* Cor azul clara como na sua imagem */
   font-size: 32px;
@@ -100,22 +103,4 @@ button:active {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
-  img {
-    position: relative;
-    margin: 45px 0 45px 30px;
-    width: 90%;
-    height: auto;
-  }
 
-  h2 {
-    margin-left: 30px;
-  }
-
-  input {
-    width: 90%;
-    margin: 0 0 5px 25px;
-  }
-
-  
-}
