@@ -10,4 +10,4 @@
 🚀 Confira o código e experimente! 
 <br>
 <br>
-<img src= "https://github.com/ricardotramiro/DevSorteio/blob/main/Captura%20de%20tela%202025-04-28%20151415.png?raw=true">
+<img src= "">
