@@ -82,12 +82,9 @@ button {
 }
 
 button:hover {
-  opacity: 0.9;
-}
-
-button:active {
   opacity: 0.8;
 }
+
 
 .restart {
    background: rgb(70, 195, 183);
