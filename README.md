@@ -10,4 +10,4 @@
 🚀 Confira o código e experimente! 
 <br>
 <br>
-<img src= "">
+<img src= "https://github.com/ricardotramiro/DevSorteio/blob/main/Foto%20capa%20GitHub%20DevSorteio.png?raw=true">
